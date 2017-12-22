@@ -1,0 +1,27 @@
+{
+  "name": "purereactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpster -d ./dist -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivek13462/PureReactApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivek13462/PureReactApp/issues"
+  },
+  "homepage": "https://github.com/vivek13462/PureReactApp#readme",
+  "dependencies": {
+    "babel-cli": "^6.18.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
