@@ -6,13 +6,19 @@ export const SkiDaycount = React.createClass({
         return (
         <div className='ski-day-count'>
             <div className='total-days'>
-            <span>5 Days</span>
+            <span>{this.props.total}</span>
+            <span>Days</span>
             </div>
             <div className='powder-days'>
-            <span>2 Days</span>
+            <span>{this.props.powder}</span>
+            <span>Days</span>
             </div>
             <div className='backcountry-days'>
-            <span>1 hiking day</span>
+            <span>{this.props.backcountry}</span>
+            <span>Days</span>
+            </div>
+            <div>
+            <span>{this.props.goal}</span>
             </div>
             </div>
             )
