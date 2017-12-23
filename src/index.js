@@ -1,12 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { SkiDaycount } from './components/SkiDayCount'
+import { SkiDayCount } from './components/SkiDayCount'
 
-window.React = React 
+window.React = React
+
 render(
-<SkiDaycount total={50}
-    powder={20}
-    backcountry={10}
-    goal={100} />,
-    document.getElementById('react-container')
+	<SkiDayCount total={50}
+				 powder={20}
+				 backcountry={10}
+				 goal={100} />,
+	document.getElementById('react-container')
 )
