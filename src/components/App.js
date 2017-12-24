@@ -38,7 +38,7 @@ export class App extends Component {
 	render() {
 		return (
 			<div className="app">
-            <Menu />
+			<Menu />
 			{(this.props.location.pathname === "/") ?
 			  <SkiDayCount total={this.countDays()}
 							 powder={this.countDays(
@@ -49,7 +49,8 @@ export class App extends Component {
 							 	)}/> :
 			 (this.props.location.pathname === "/add-day") ?
 			 	<AddDayForm /> :
-			 	<SkiDayList days={this.state.allSkiDays}/>				 
+			 	<SkiDayList days={this.state.allSkiDays}
+			 				filter={this.props.params.filter}/>				 
 			}
 					
 			</div>
