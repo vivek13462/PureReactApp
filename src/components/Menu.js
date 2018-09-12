@@ -1,18 +1,14 @@
 import { Link } from 'react-router'
-import HomeIcon from 'react-icons/lib/fa/home'
-import AddDayIcon from 'react-icons/lib/fa/calendar-plus-o'
-import ListDaysIcon from 'react-icons/lib/fa/table'
+import ListAppointmentIcon from 'react-icons/lib/fa/table'
+import AddAppointmentIcon from 'react-icons/lib/fa/calendar-plus-o'
 
 export const Menu = () => 
 <nav className="menu">
-    <Link to="/" activeClassName="selected">
-        <HomeIcon />
+<Link to="/new-request" activeClassName="selected">Request
+    <AddAppointmentIcon />
     </Link>
-<Link to="/add-day" activeClassName="selected">
-    <AddDayIcon />
-    </Link>
-<Link to="/list-days" activeClassName="selected">
-    <ListDaysIcon />
+    <Link to="/" activeClassName="selected">List
+        <ListAppointmentIcon />
     </Link>
       </nav>
     

@@ -9,21 +9,17 @@ div.app {
   margin: 0;
 }
 
-h1, label {
-  margin: 0
+h2, label, th {
+  margin: 0;
+  color:maroon
+}
+
+h2 {
+    text-align: center
 }
 
 div.app {
- background-image:url('http://localhost:3000/assets/img/rowdy.jpg');
+ background-image:url('http://localhost:3000/assets/img/backgroundImage.jpg');
  background-size: cover;
  background-position: center;
-}
-
-div.whoops-404 {
-  background-color: white;
-  font-size: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
